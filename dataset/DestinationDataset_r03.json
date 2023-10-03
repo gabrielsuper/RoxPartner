@@ -1,0 +1,84 @@
+{
+	"name": "DestinationDataset_r03",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "SalesOrderID",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "SalesOrderDetailID",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "CarrierTrackingNumber",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "OrderQty",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "ProductID",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "SpecialOfferID",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "UnitPrice",
+				"type": "numeric",
+				"precision": 18,
+				"scale": 0
+			},
+			{
+				"name": "UnitPriceDiscount",
+				"type": "numeric",
+				"precision": 18,
+				"scale": 0
+			},
+			{
+				"name": "LineTotal",
+				"type": "numeric",
+				"precision": 18,
+				"scale": 0
+			},
+			{
+				"name": "rowguid",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "ModifiedDate",
+				"type": "smalldatetime",
+				"precision": 16,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "SalesOrderDetail"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,9 @@
+{
+	"name": "cargadedados",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "454842e8-f869-4eb3-8707-a4159191bb17",
+		"tenantId": "a14fbab6-a766-454c-8aa5-db57f36bc0c2"
+	}
+}

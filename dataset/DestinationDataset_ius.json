@@ -1,0 +1,174 @@
+{
+	"name": "DestinationDataset_ius",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "SalesOrderID",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "RevisionNumber",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "OrderDate",
+				"type": "smalldatetime",
+				"precision": 16,
+				"scale": 0
+			},
+			{
+				"name": "DueDate",
+				"type": "smalldatetime",
+				"precision": 16,
+				"scale": 0
+			},
+			{
+				"name": "ShipDate",
+				"type": "smalldatetime",
+				"precision": 16,
+				"scale": 0
+			},
+			{
+				"name": "Status",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "rowguid",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "ModifiedDate",
+				"type": "smalldatetime",
+				"precision": 16,
+				"scale": 0
+			},
+			{
+				"name": "CurrencyRateID",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "SubTotal",
+				"type": "numeric",
+				"precision": 18,
+				"scale": 0
+			},
+			{
+				"name": "TaxAmt",
+				"type": "numeric",
+				"precision": 18,
+				"scale": 0
+			},
+			{
+				"name": "Freight",
+				"type": "numeric",
+				"precision": 18,
+				"scale": 0
+			},
+			{
+				"name": "TotalDue",
+				"type": "numeric",
+				"precision": 18,
+				"scale": 0
+			},
+			{
+				"name": "Comment",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "TerritoryID",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "BillToAddressID",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "ShipToAddressID",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "ShipMethodID",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "CreditCardID",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "CreditCardApprovalCode",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "OnlineOrderFlag",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "SalesOrderNumber",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PurchaseOrderNumber",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "AccountNumber",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "CustomerID",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "SalesPersonID",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "SalesOrderHeader"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
