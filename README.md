@@ -5,7 +5,7 @@ Teste realizado para o processo seletivo de engenheiro de dados jr na Rox Partne
 
 ### Tecnologias utilizadas:
 
-Ferramentas que foram ultilzadas para realização das atividades:
+Ferramentas/Tecnologias que foram ultilzadas para realização das atividades:
 
 - Azure Cloud
 - Azure Data Factory
@@ -13,6 +13,7 @@ Ferramentas que foram ultilzadas para realização das atividades:
 - Storage blob
 - Power BI
 - BR Modelo
+- Visual Paradigm
 
 ### Modelagem Conceitual
 
@@ -21,6 +22,12 @@ Ferramentas que foram ultilzadas para realização das atividades:
 ### Infraestrutura do projeto
 
 <img width="1013" alt="Screenshot 2023-07-24 at 09 54 02" src="https://github.com/gabrielsuper/RoxPartner/blob/main/images/Arquitetura.png">
+
+## DataSet de origem e destino
+[DataSets](https://github.com/gabrielsuper/RoxPartner/blob/main/dataset)
+
+## DataSet de origem e destino
+[DataSets](https://github.com/gabrielsuper/RoxPartner/blob/main/dataset)
 
 ### Scripts de criação das tabelas
 
