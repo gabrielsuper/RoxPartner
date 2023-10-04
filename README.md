@@ -23,7 +23,9 @@ Ferramentas/Tecnologias que foram ultilzadas para realização das atividades:
 
 <img width="1013" alt="Screenshot 2023-07-24 at 09 54 02" src="https://github.com/gabrielsuper/RoxPartner/blob/main/images/Arquitetura.png">
 
-```Foram realizados 6 pipelines para contemplar o processo de ETL. É possível realizar um "for each" para criar somente um pipeline para tratar os 6 arquivos, porém foi realizado de forma individual, para ficar  de forma mais didática```
+```
+Foram realizados 6 pipelines para contemplar o processo de ETL. É possível realizar um "for each" para criar somente um pipeline para tratar os 6 arquivos, porém foi realizado de forma individual, para ficar  de forma mais didática
+```
 
 <p><a href="https://github.com/gabrielsuper/RoxPartner/blob/main/pipeline">Caminho para os pipelines</a></p>
 <p><a href="https://github.com/gabrielsuper/RoxPartner/blob/main/linked_service">Caminho para os linked services</a></p>
@@ -32,11 +34,11 @@ Ferramentas/Tecnologias que foram ultilzadas para realização das atividades:
 ## Scripts de criação das tabelas
 
 - [Person](https://github.com/gabrielsuper/RoxPartner/blob/main/create_tables/create_person.sql)
-- [Costumer](https://github.com/gabrielsuper/RoxPartner/blob/main/create_tables/create_customer.sql)
-- [SalesOrderHeader](https://github.com/gabrielsuper/RoxPartner/blob/main/create_tables/create_sales_order_header.sql)
-- [SalesOrderDetail](https://github.com/gabrielsuper/RoxPartner/blob/main/create_tables/create_sales_order_detail.sql)
-- [SpecialOfferProduct](https://github.com/gabrielsuper/RoxPartner/blob/main/create_tables/create_special_offer_product.sql)
 - [Product](https://github.com/gabrielsuper/RoxPartner/blob/main/create_tables/create_product.sql)
+- [Costumer](https://github.com/gabrielsuper/RoxPartner/blob/main/create_tables/create_customer.sql)
+- [SalesOrderDetail](https://github.com/gabrielsuper/RoxPartner/blob/main/create_tables/create_sales_order_detail.sql)
+- [SalesOrderHeader](https://github.com/gabrielsuper/RoxPartner/blob/main/create_tables/create_sales_order_header.sql)
+- [SpecialOfferProduct](https://github.com/gabrielsuper/RoxPartner/blob/main/create_tables/create_special_offer_product.sql)
 
 ## Scripts das questões de análise de dados
 
@@ -45,3 +47,12 @@ Ferramentas/Tecnologias que foram ultilzadas para realização das atividades:
 - [Questão 3](https://github.com/gabrielsuper/RoxPartner/blob/main/query_questions/question_3.sql)
 - [Questão 4](https://github.com/gabrielsuper/RoxPartner/blob/main/query_questions/question_4.sql)
 - [Questão 5](https://github.com/gabrielsuper/RoxPartner/blob/main/query_questions/question_5.sql)
+
+## Relatório gerado no PowerBI
+
+<img width="1013" alt="Screenshot 2023-07-24 at 09 54 02" src="https://github.com/gabrielsuper/RoxPartner/blob/main/images/Power_BI.jpeg">
+
+## Considerações finais
+```
+AQUI
+```
