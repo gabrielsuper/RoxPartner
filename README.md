@@ -19,14 +19,14 @@ Ferramentas/Tecnologias que foram ultilzadas para realização das atividades:
 
 <img width="1013" alt="Screenshot 2023-07-24 at 09 54 02" src="https://github.com/gabrielsuper/RoxPartner/blob/main/images/Modelo_Conceitual.png">
 
-### Infraestrutura do projeto
+## Infraestrutura do projeto
 
 <img width="1013" alt="Screenshot 2023-07-24 at 09 54 02" src="https://github.com/gabrielsuper/RoxPartner/blob/main/images/Arquitetura.png">
 
-## DataSet de origem e destino
+### DataSet de origem e destino
 [DataSets](https://github.com/gabrielsuper/RoxPartner/blob/main/dataset)
 
-## DataSet de origem e destino
+### DataSet de origem e destino
 [DataSets](https://github.com/gabrielsuper/RoxPartner/blob/main/dataset)
 
 ### Scripts de criação das tabelas
