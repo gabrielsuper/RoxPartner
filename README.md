@@ -1,4 +1,4 @@
-# Rox Partner Test 
+# Rox Partner Engenheiro de Dados Jr. Teste
 
 ## Introdução:
 Teste realizado para o processo seletivo de engenheiro de dados jr na Rox Partner. O projeto consiste em realizar uma ingestão de dados utilizando alguma nuvem pública. A empresa fíctica utilizada como exemplo na base de dados é do ramo de vendas de bicicleta.
@@ -9,7 +9,7 @@ Ferramentas/Tecnologias que foram ultilzadas para realização das atividades:
 
 - Azure Cloud
 - Azure Data Factory
-- SQL Server
+- SQL Database
 - Storage blob
 - Power BI
 - BR Modelo
@@ -21,15 +21,19 @@ Ferramentas/Tecnologias que foram ultilzadas para realização das atividades:
 
 ## Infraestrutura do projeto
 
+```A arquitetura foi criada pensando em armazenar os dados brutos em um blob storage e a partir do Data Factory realizar o ETL desses arquivos tratados para o SQL Database e utilizar os dados para criação de dashboard no Power BI```
+
+<p></p>
+
 ```Foram realizados 6 pipelines para contemplar o processo de ETL. É possível realizar um "for each" para criar somente um pipeline para tratar os 6 arquivos, porém foi realizado de forma individual, para ficar  de forma mais didática```
 
 <img width="1000"  src="https://github.com/gabrielsuper/RoxPartner/blob/main/images/Arquitetura.png">
 
-```Execuções de pipelines realizadas para popular as tables no SQL Server:``` 
+```Execuções de pipelines realizadas para popular as tables no SQL Database:``` 
 
 <img width="1000"  src="https://github.com/gabrielsuper/RoxPartner/blob/main/images/Monitor_Pipes.jpg">
 
-```Tabelas populadas no SQL Server:``` 
+```Tabelas populadas no SQL Database:``` 
 
 <img width="1000"  src="https://github.com/gabrielsuper/RoxPartner/blob/main/images/SQL_Tables.jpg">
 
