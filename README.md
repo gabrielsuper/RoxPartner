@@ -17,15 +17,21 @@ Ferramentas/Tecnologias que foram ultilzadas para realização das atividades:
 
 ## Modelagem Conceitual
 
-<img width="1013" alt="Screenshot 2023-07-24 at 09 54 02" src="https://github.com/gabrielsuper/RoxPartner/blob/main/images/Modelo_Conceitual.png">
+<img width="1000"  src="https://github.com/gabrielsuper/RoxPartner/blob/main/images/Modelo_Conceitual.png">
 
 ## Infraestrutura do projeto
 
-<img width="1013" alt="Screenshot 2023-07-24 at 09 54 02" src="https://github.com/gabrielsuper/RoxPartner/blob/main/images/Arquitetura.png">
+```Foram realizados 6 pipelines para contemplar o processo de ETL. É possível realizar um "for each" para criar somente um pipeline para tratar os 6 arquivos, porém foi realizado de forma individual, para ficar  de forma mais didática```
 
-```
-Foram realizados 6 pipelines para contemplar o processo de ETL. É possível realizar um "for each" para criar somente um pipeline para tratar os 6 arquivos, porém foi realizado de forma individual, para ficar  de forma mais didática
-```
+<img width="1000"  src="https://github.com/gabrielsuper/RoxPartner/blob/main/images/Arquitetura.png">
+
+```Execuções de pipelines realizadas para popular as tables no SQL Server``` 
+
+<img width="1000"  src="https://github.com/gabrielsuper/RoxPartner/blob/main/images/Monitor_Pipes.jpg">
+
+```Tabelas populadas no SQL Server``` 
+
+<img width="1000"  src="https://github.com/gabrielsuper/RoxPartner/blob/main/images/SQL_Tables.jpg">
 
 <p><a href="https://github.com/gabrielsuper/RoxPartner/blob/main/pipeline">Caminho para os pipelines</a></p>
 <p><a href="https://github.com/gabrielsuper/RoxPartner/blob/main/linked_service">Caminho para os linked services</a></p>
@@ -50,9 +56,8 @@ Foram realizados 6 pipelines para contemplar o processo de ETL. É possível rea
 
 ## Relatório gerado no PowerBI
 
-<img width="1013" alt="Screenshot 2023-07-24 at 09 54 02" src="https://github.com/gabrielsuper/RoxPartner/blob/main/images/Power_BI.jpeg">
+<img width="1000"  src="https://github.com/gabrielsuper/RoxPartner/blob/main/images/Power_BI.jpeg">
 
 ## Considerações finais
-```
-AQUI
-```
+```Arquivos csv upado diretamete no Blob Storage, podendo melhorar a arquitetura utilizando automação com ingestão de dados utilizando Bulk Copy Program(BCP), logic apps...```
+```Dashboard criado em PowerBI desktop, não foi publicado na web e divulgado o link por não haver licença da ferramenta```
