@@ -25,9 +25,9 @@ Ferramentas/Tecnologias que foram ultilzadas para realização das atividades:
 
 ```Foram realizados 6 pipelines para contemplar o processo de ETL. É possível realizar um for each para criar somente um pipeline para tratar os 6 arquivos, porém foi realizado de forma individual.```
 
-[Caminho para os pipelines](https://github.com/gabrielsuper/RoxPartner/blob/main/pipeline) &nbsp;
-[Caminho para os datasets de origem e destino](https://github.com/gabrielsuper/RoxPartner/blob/main/dataset) &nbsp;
-[Caminho para os linked services](https://github.com/gabrielsuper/RoxPartner/blob/main/linked_service)
+<p><a href="https://github.com/gabrielsuper/RoxPartner/blob/main/pipeline">Caminho para os pipelines</a></p>
+<p><a href="https://github.com/gabrielsuper/RoxPartner/blob/main/dataset">Caminho para os datasets de origem e destino</a></p>
+<p><a href="(https://github.com/gabrielsuper/RoxPartner/blob/main/linked_service">Caminho para os linked services</a></p>
 
 ## Scripts de criação das tabelas
 
